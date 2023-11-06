@@ -1,0 +1,5 @@
+# 個人データファイルを除外
+/config
+/logs
+options.txt
+servers.dat
