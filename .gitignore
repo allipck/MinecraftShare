@@ -1,5 +1,5 @@
 # 個人データファイルを除外
-/config
-/logs
+mods/config
+mods/logs
 options.txt
 servers.dat
