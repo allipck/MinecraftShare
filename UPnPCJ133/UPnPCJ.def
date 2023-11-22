@@ -1,0 +1,117 @@
+# ----------------------------------------------------------------------------
+# オンラインアップデート用情報
+# ----------------------------------------------------------------------------
+#S:START
+#V:UPnPCJ.exe Version 1.33
+#D:2018/10/10 00:00:00
+#M:(更新履歴)
+#M:2009/01/27 Ver 1.23 PPP,IPが固定になっていたバグを修正
+#M:2009/12/09 Ver 1.24 UDPの外部接続テストチェック機能を追加
+#M:2010/01/05 Ver 1.25 無線ブリッジ時の複数機器認識に対応
+#M:2010/02/14 Ver 1.26 「グローバルIPアドレス:ポート」をクリップボードへコピーボタン追加
+#M:2010/06/08 Ver 1.27 HP移転、ポート開放テスト修正
+#M:2010/06/09 Ver 1.28 HP戻すorz
+#M:2010/09/11 Ver 1.29 楽天がぁ・・・・・
+#M:2012/04/18 Ver 1.30 マルチキャスト不具合修正
+#M:2013/04/09 Ver 1.31 cgiサーバー変更
+#M:2014/03/15 Ver 1.32 cgiサーバー変更
+#M:2018/10/10 Ver 1.33 HPの変更yahoo→xreaへ変更
+#E:END
+# ----------------------------------------------------------------------------
+# アプリケーション連携（自動実行定義）
+# ----------------------------------------------------------------------------
+# 【概要】
+#  ・対象ポート番号を自動的に取得し、ポート開放後、サーバーソフトを実行します
+#  ・サーバーソフトが終了したら、ポートを自動的に閉鎖します
+#
+# 【利用方法】
+#  ・UPnPCJ.exeの設定ウィザードボタンを押します
+#  ※.iniファイルが作成されていない場合はあらかじめサーバーソフトを
+#    起動して、.iniを作成しておく必要があります
+#
+# 【流れ】
+#  ＜１＞
+#  UPnPCJ.exe実行時、UPnPCJ.defが存在する場合
+#  UPnPCJ.defに定義されている①サーバーソフト(xxx.exe)を検索します
+#  （設定ウィザードで指定したフォルダを検索）
+#  ※絶対Pathが設定された場合、そのファイルを検索します
+#  ＜２＞
+#  ①のサーバーソフトが見つかった場合、②の設定情報ファイルを解析します
+#    ※.xmlの場合　　→xmlとして解析
+#    ※.xml意外の場合→xxxxxx=yyyyというini形式として解析します
+#  ＜３＞
+#  ポート番号が取得できた場合、そのポートを開放し、プログラムを実行します
+#  ＜４＞
+#  ③のウインドウタイトルが設定された場合、
+#    ①の実行ファイルを監視し(FindWindow)、①の実行ファイルが見つからなければ、
+#    ポートを閉鎖します
+#  ③のウインドウタイトルが設定されていない場合、
+#    ポート開放後、すぐに終了します（閉鎖は手動で）
+#
+#  （パラメータの内容）
+#  ①第１フィールド＝実行ファイル名
+#  ②第２フィールド＝設定情報ファイル(regや、固定の場合は不要)
+#  ③第３フィールド＝ウインドウタイトル
+#  ④第４フィールド＝対象パラメータ(⑤オプションがfixの場合はポート番号)
+#  ⑤第５フィールド＝オプション(ini,xml,reg,fix のどれか)
+#  ⑥第６フィールド＝プロトコル(TCP,UDP のどちらか)
+#  ⑦第７フィールド＝ウィザード時の表示名
+#
+#  ④第４フィールド＝対象パラメータについて
+#    ⑤がfixの場合・・・ポート番号を設定                例：8000
+#    ⑤がxmlの場合・・・xml表記                         例：//icecast/listen-socket/port
+#    ⑤がiniの場合１・・//ini/セクション名/パラメータ名 例：//ini/Server/serverPort
+#    ⑤がiniの場合２・・//ini//パラメタ名               例：//ini//PortBase
+#    ⑤がregの場合・・・キー名                          例：HKEY_CURRENT_USER\Software\test
+#
+#  （特殊変数）
+#  $DESKTOP$  デスクトップフォルダへのパス
+#  $TEMPDIR$  テンポラリフォルダへのパス
+#  $WINDIR$   ウインドウズフォルダへのパス
+#  $WINDRIVE$ ウインドウズのドライブ名
+#  $PROGRAM$  プログラムファイルズへのパス
+# ----------------------------------------------------------------------------
+#Icecast2(songreqがあれば、それも起動)
+Icecast2.exe	icecast.xml	Icecast2 Version 2.x	//icecast/listen-socket/port	xml	TCP	Icecast2
+Icecast2.exe	$PROGRAM$\Winamp\Plugins\plugin.ini	Icecast2 Version 2.x	//ini/HTTP Request/Port	ini	TCP	SongReqester
+#ShoutCast(songreqがあれば、それも起動)
+sc_serv.exe	sc_serv.ini	Nullsoft SHOUTcast Server Monitor	//ini//PortBase	ini	TCP	SHOUTcast Server
+sc_serv.exe	sc_serv.ini	Nullsoft SHOUTcast Server Monitor	//ini//PortBase	ini	UDP	SHOUTcast Server
+sc_serv.exe	$PROGRAM$\Winamp\Plugins\plugin.ini	SHOUTcast Server Monitor	//ini/HTTP Request/Port	ini	TCP	SHOUTcast Server
+#PeerCast
+PeerCast.exe	peercast.ini	PeerCast	//ini/Server/serverPort	ini	TCP	PeerCast
+#wwwinamp
+wwwinamp.exe	wwwinamp.ini	wwwinamp.exe	//ini/Config/Port	ini	TCP	wwwinamp
+#Share
+Share.exe	config.ini	Share 	//ini/Network/Port	ini	TCP	SH
+#Winny
+Winny.exe	Winny.ini	Winny v2.0b7.1	//ini/Option/AcceptPort	ini	TCP	NY
+Winny.exe	Winny.ini	Winny v2.0b7.1	//ini/Option/BbsAcceptPort	ini	TCP	NY
+#WinMX(iniファイルが無いため、固定ポート開放)
+WinMX.exe	FIX	WinMX v3	6699	fix	TCP	MX
+WinMX.exe	FIX	WinMX v3	6257	fix	UDP	MX
+#Radish
+Radish.exe	mail.conf	Portable Smtp Server Radish3	//ini//SmtpPort	ini	TCP	Radish
+Radish.exe	mail.conf	Portable Smtp Server Radish3	//ini//Pop3Port	ini	TCP	Radish
+#P2P地震情報
+P2PQ_Client.exe	P2PQ_Client.ini	P2P地震情報 for Peer	//ini/Connection/接続/Listen_Port	ini	TCP	P2P地震情報
+#04WebServer web
+04WebServer.exe	04WebServer.xml	04WebServer - ServerController	//CConfigClass[@type="04WebServer"]/Node[@name="04WebServer"]/Node[@name="Setting"]/Node[@name="Basic"]/Leaf[@key="Port"]	xml	TCP	04WebServer
+#04WebServer SSL
+04WebServer.exe	04WebServer.xml	04WebServer - ServerController	//CConfigClass[@type="04WebServer"]/Node[@name="04WebServer"]/Node[@name="Setting"]/Node[@name="SSL"]/Leaf[@key="Port"]	xml	TCP	04WebServer
+
+#reg sample(レジストリの場合)
+reg_sample.exe		reg_sample	HKEY_CURRENT_USER\Software\Microsoft\regsample\port	reg	TCP	Sample
+
+#TeamSpeak Server(UDP 8767固定)
+server_windows.exe	FIX	TeamSpeak Server	8767	fix	UDP	TeamSpeak2 Server
+
+#Skype
+skype.exe	$DESKTOP$\..\Application Data\Skype\shared.xml	Skype	//Lib/Connection/ListeningPort	xml	TCP	Skype
+skype.exe	$DESKTOP$\..\Application Data\Skype\shared.xml	Skype	//Lib/Connection/ListeningPort	xml	UDP	Skype
+
+#o2on
+o2on.exe	conf\Profile.xml	o2on	//profile/port	xml	TCP	o2on
+
+#非想天則(UDP:10800)
+th123.exe	FIX	th123	10800	fix	UDP	非想天則

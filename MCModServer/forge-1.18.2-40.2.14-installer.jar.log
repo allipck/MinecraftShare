@@ -1,0 +1,10 @@
+JVM info: Eclipse Adoptium - 21.0.1 - 21.0.1+12-LTS
+java.net.preferIPv4Stack=true
+Current Time: 22/11/2023 19:08:39
+Host: files.minecraftforge.net [51.79.83.165]
+Host: maven.minecraftforge.net [51.79.83.165]
+Host: libraries.minecraft.net [13.107.246.47, 13.107.213.47]
+Host: launchermeta.mojang.com [13.107.246.47, 13.107.213.47]
+Host: piston-meta.mojang.com [13.107.213.47, 13.107.246.47]
+Host: authserver.mojang.com [18.65.148.58, 18.65.148.4, 18.65.148.124, 18.65.148.40]
+Found java version 21.0.1

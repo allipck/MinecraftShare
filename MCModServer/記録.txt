@@ -1,0 +1,20 @@
+1.必要なバージョンのForgeをインストール
+他にもFabricやNeoForgeを使うパターンがある。
+
+2.java dkをインストール(マイクラが1.17以降はjdk16以上が必要)
+https://adoptium.net/temurin/archive/
+
+3.modのデータをまとめる用のディレクトリを作成
+仮にMCModServerとする。
+
+4.MCModServerディレクトリにインストールしたForgeを移動、
+Forgeを起動して、Install serverのラジオボタンを押して、
+ディレクトリの指定をMC...に変更後OKを押す。
+
+5.run.batを起動するとeura.txtが生成されているので、
+開いて、最後の行のfalseをtrueに変更する。
+
+6.再度run.batを起動するとサーバー立てが完了する。
+停止するには右下の項目にstopを入力
+
+

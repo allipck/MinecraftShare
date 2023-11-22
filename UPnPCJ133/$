@@ -1,0 +1,5 @@
+$WindowTitle=UPnPCJセットアップ
+$InstallTitle=UPnPCJのセットアップ先を指定してください
+$InstallDir=%ProgramFiles%\UPnPCJ\
+$Flag=10
+$Command=UPnPCJ.exe /setup
