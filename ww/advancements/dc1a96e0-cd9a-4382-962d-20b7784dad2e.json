@@ -605,6 +605,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "axe": "2023-11-26 02:20:05 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-11-19 22:49:09 +0900"
@@ -787,12 +793,14 @@
       "minecraft:magma_cube": "2023-11-24 23:07:50 +0900",
       "minecraft:spider": "2023-11-18 22:26:49 +0900",
       "minecraft:creeper": "2023-11-18 22:26:58 +0900",
+      "minecraft:wither": "2023-11-26 03:52:19 +0900",
       "minecraft:phantom": "2023-11-21 00:58:09 +0900",
       "minecraft:zombified_piglin": "2023-11-24 23:08:56 +0900",
       "minecraft:wither_skeleton": "2023-11-23 22:48:21 +0900",
       "minecraft:husk": "2023-11-22 00:43:03 +0900",
       "minecraft:cave_spider": "2023-11-23 17:41:40 +0900",
       "minecraft:piglin": "2023-11-23 22:42:11 +0900",
+      "minecraft:enderman": "2023-11-26 03:31:50 +0900",
       "minecraft:zombie": "2023-11-18 22:26:50 +0900",
       "minecraft:drowned": "2023-11-25 01:28:23 +0900",
       "minecraft:zombie_villager": "2023-11-23 18:23:34 +0900"
@@ -1129,6 +1137,12 @@
     },
     "done": true
   },
+  "grimoireofgaia:main/orc": {
+    "criteria": {
+      "kill": "2023-11-26 02:37:33 +0900"
+    },
+    "done": true
+  },
   "minecolonies:recipes/minecolonies/blockhutmysticalsite": {
     "criteria": {
       "has_items": "2023-11-19 22:54:02 +0900"
@@ -1243,6 +1257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-26 03:26:52 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2023-11-22 00:26:22 +0900"
@@ -1306,6 +1326,12 @@
   "grimoireofgaia:recipes/building_blocks/stone_coal_to_coal_block": {
     "criteria": {
       "has_stone_coal": "2023-11-25 01:14:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-11-26 03:45:25 +0900"
     },
     "done": true
   },
@@ -1499,6 +1525,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2023-11-23 17:11:22 +0900",
       "minecraft:old_growth_pine_taiga": "2023-11-23 18:36:03 +0900",
+      "minecraft:mushroom_fields": "2023-11-26 04:38:11 +0900",
       "minecraft:taiga": "2023-11-23 17:45:12 +0900",
       "minecraft:deep_ocean": "2023-11-19 00:36:20 +0900",
       "minecraft:eroded_badlands": "2023-11-23 19:57:11 +0900",
@@ -1509,8 +1536,10 @@
       "minecraft:wooded_badlands": "2023-11-19 04:10:25 +0900",
       "minecraft:bamboo_jungle": "2023-11-19 06:11:24 +0900",
       "minecraft:badlands": "2023-11-19 04:09:31 +0900",
+      "minecraft:savanna_plateau": "2023-11-26 02:42:35 +0900",
       "minecraft:beach": "2023-11-18 22:12:16 +0900",
       "minecraft:dark_forest": "2023-11-19 06:12:53 +0900",
+      "minecraft:stony_peaks": "2023-11-26 02:42:55 +0900",
       "minecraft:sparse_jungle": "2023-11-19 01:30:50 +0900",
       "minecraft:river": "2023-11-19 00:13:21 +0900",
       "minecraft:lukewarm_ocean": "2023-11-19 06:11:36 +0900",
@@ -1545,7 +1574,7 @@
       "minecraft:savanna": "2023-11-18 23:55:42 +0900",
       "minecraft:plains": "2023-11-18 22:12:35 +0900"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
@@ -1562,6 +1591,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-11-18 22:22:46 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-11-26 03:45:25 +0900"
     },
     "done": true
   },
@@ -2209,6 +2244,12 @@
     },
     "done": true
   },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2023-11-26 03:51:55 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_netherbrick": "2023-11-23 22:59:47 +0900"
@@ -2408,6 +2449,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragonsteel": {
+    "criteria": {
+      "steel": "2023-11-26 02:18:28 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2023-11-19 03:45:03 +0900"
@@ -2537,6 +2584,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2023-11-18 23:21:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-11-26 03:19:49 +0900"
     },
     "done": true
   },
@@ -2904,6 +2957,12 @@
   "minecolonies:recipes/minecolonies/supplycampdeployer": {
     "criteria": {
       "has_chest": "2023-11-18 22:12:46 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-26 03:26:52 +0900"
     },
     "done": true
   },
@@ -3474,6 +3533,12 @@
   "minecraft:recipes/building_blocks/black_terracotta": {
     "criteria": {
       "has_terracotta": "2023-11-19 23:24:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2023-11-26 03:19:49 +0900"
     },
     "done": true
   },
