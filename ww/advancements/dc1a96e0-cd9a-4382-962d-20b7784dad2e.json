@@ -365,6 +365,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_smelting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2023-11-30 01:07:44 +0900"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/dragon_forge_brick": {
     "criteria": {
       "forge": "2023-11-26 01:09:56 +0900"
@@ -389,6 +395,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/tame_cockatrice": {
+    "criteria": {
+      "tame_rat": "2023-11-26 23:46:33 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2023-11-19 23:24:33 +0900"
@@ -404,6 +416,12 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-11-19 22:49:09 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2023-11-30 00:53:31 +0900"
     },
     "done": true
   },
@@ -488,6 +506,12 @@
   "minecolonies:recipes/decorations/doublegrass": {
     "criteria": {
       "has_grass": "2023-11-19 04:39:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2023-11-30 00:54:35 +0900"
     },
     "done": true
   },
@@ -596,6 +620,12 @@
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2023-11-20 00:09:50 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2023-11-30 00:54:36 +0900"
     },
     "done": true
   },
@@ -749,6 +779,12 @@
     },
     "done": true
   },
+  "minecolonies:recipes/minecolonies/composted_dirt": {
+    "criteria": {
+      "has_compost": "2023-11-29 02:16:48 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2023-11-18 22:12:30 +0900"
@@ -790,6 +826,7 @@
       "minecraft:pillager": "2023-11-19 05:34:44 +0900",
       "minecraft:blaze": "2023-11-23 22:45:02 +0900",
       "minecraft:skeleton": "2023-11-18 22:27:13 +0900",
+      "minecraft:vindicator": "2023-11-26 21:10:05 +0900",
       "minecraft:magma_cube": "2023-11-24 23:07:50 +0900",
       "minecraft:spider": "2023-11-18 22:26:49 +0900",
       "minecraft:creeper": "2023-11-18 22:26:58 +0900",
@@ -915,6 +952,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-11-26 21:10:05 +0900"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/dragon_forge_core": {
     "criteria": {
       "core": "2023-11-26 01:09:52 +0900"
@@ -927,9 +970,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2023-11-30 00:53:31 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_nugget": "2023-11-18 22:19:13 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2023-11-30 00:57:44 +0900"
     },
     "done": true
   },
@@ -1011,6 +1066,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-11-30 01:07:47 +0900"
+    },
+    "done": true
+  },
   "grimoireofgaia:main/succubus": {
     "criteria": {
       "kill": "2023-11-23 22:52:26 +0900"
@@ -1020,6 +1081,12 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2023-11-23 23:59:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2023-11-30 00:54:44 +0900"
     },
     "done": true
   },
@@ -1110,6 +1177,12 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2023-11-19 00:53:41 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-11-26 23:04:39 +0900"
     },
     "done": true
   },
@@ -1383,6 +1456,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2023-11-30 00:55:24 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2023-11-19 00:29:34 +0900"
@@ -1422,6 +1501,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2023-11-19 23:23:50 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2023-11-30 00:52:51 +0900"
     },
     "done": true
   },
@@ -2124,6 +2209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2023-11-30 00:54:35 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2023-11-18 23:56:32 +0900"
@@ -2244,6 +2335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2023-11-30 00:55:24 +0900"
+    },
+    "done": true
+  },
   "minecraft:nether/summon_wither": {
     "criteria": {
       "summoned": "2023-11-26 03:51:55 +0900"
@@ -2344,6 +2441,12 @@
   "minecraft:recipes/building_blocks/gray_terracotta": {
     "criteria": {
       "has_terracotta": "2023-11-19 23:24:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2023-11-30 00:54:44 +0900"
     },
     "done": true
   },
@@ -2816,6 +2919,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-11-26 21:23:06 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2023-11-19 22:39:34 +0900"
@@ -3014,6 +3123,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-11-30 00:20:00 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2023-11-19 03:45:03 +0900"
@@ -3140,6 +3255,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2023-11-26 22:15:00 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2023-11-18 22:13:15 +0900"
@@ -3248,6 +3369,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2023-11-30 00:52:51 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-11-19 06:37:06 +0900"
@@ -3287,6 +3414,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2023-11-18 22:19:34 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-11-30 01:07:47 +0900"
     },
     "done": true
   },
@@ -3338,9 +3471,21 @@
     },
     "done": true
   },
+  "grimoireofgaia:main/ender_eye": {
+    "criteria": {
+      "kill": "2023-11-26 22:46:04 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2023-11-19 23:24:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2023-11-30 01:07:44 +0900"
     },
     "done": true
   },
@@ -3383,6 +3528,12 @@
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2023-11-18 22:28:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2023-11-30 00:05:08 +0900"
     },
     "done": true
   },
@@ -3584,6 +3735,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-11-26 21:23:06 +0900"
+    },
+    "done": true
+  },
   "minecolonies:recipes/minecolonies/blockhutdyer": {
     "criteria": {
       "has_items": "2023-11-23 16:59:08 +0900"
@@ -3698,6 +3855,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2023-11-30 00:54:36 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2023-11-23 20:04:12 +0900"
@@ -3719,6 +3882,12 @@
   "iceandfire:iceandfire/stymphalian_arrow": {
     "criteria": {
       "bestiary": "2023-11-23 23:20:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2023-11-26 22:15:00 +0900"
     },
     "done": true
   },
@@ -3827,6 +3996,12 @@
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2023-11-19 22:39:34 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2023-11-30 00:57:44 +0900"
     },
     "done": true
   },
